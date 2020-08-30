@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Product example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+    <style type="text/css" media="screen">
+        .editor {
+            display: block;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 100px;
+        }
+        
+        #editor2 {
+            height: 150px;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#" aria-label="Product">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+        </div>
+    </nav>
+
+
+    <div id="header-1" class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">Punny headline</h1>
+            <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+            <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+        </div>
+        <div id="device-1" class="product-device shadow-sm d-none d-md-block"></div>
+        <div id="device-2" class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3">
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Botões</h2>
+            </div>
+            <div id="container-botao" class="bg-light shadow-sm mx-auto d-flex justify-content-center align-items-center" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <a id="botao" href="javascript:;" class="btn btn-dark btn-lg">Botão</a>
+
+            </div>
+        </div>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Cards</h2>
+            </div>
+            <div id="container-card" class="d-flex justify-content-center bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+                <div class="card w-50 border-0 mt-3 mb-3" id="card" style="width: 18rem;">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 pl-md-3" id="howto-container">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="howto">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Qualquer coisa!</h2>
+                <p class="lead">Utilize o plugin com qualquer elemento.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; border-radius: 21px 21px 0 0;">
+                <div class="container pt-4 pb-4">
+                    <h4 class="text-white font-weight-bold">Como usar</h4>
+                    <h5 class="text-white font-weight-bold">1. HTML</h5>
+                    <p class="text-white">Você precisa de um elemento <code>pai</code> que será o elemento onde o evento do movimento do mouse será inserido. Isso quer dizer que, quando o mouse passar sobre este elemento, as imagens indicadas pelo parâmetro <code>elements</code>                        serão animadas.
+                    </p>
+                    <div id="editor1" class="mt-3 editor">
+                    </div>
+
+                    <h5 class="text-white font-weight-bold mt-5">2. Javascript</h5>
+                    <p class="text-white">Você deve chamar a função <code>moover</code> no elemento <code>pai</code>, desta forma, o evento <code>mouseMove</code> será inserido nele. Nos parâmetros da função, você deve passar um <code>array</code> chamado <code>elements</code>                        com os elementos que serão animados.
+                    </p>
+                    <div id="editor2" class="mt-3 editor">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./jquery-moover.js"></script>
+    <script src="https://pagecdn.io/lib/ace/1.4.12/ace.js" crossorigin="anonymous" integrity="sha256-Q9hnBpgBFstzZOr+OKFOWZWfcF5nFXO8Qz48Nmndo6U="></script>
+    <script>
+        var editor1 = ace.edit("editor1");
+        editor1.setTheme("ace/theme/monokai");
+        editor1.session.setMode("ace/mode/html");
+        editor1.session.setUseWrapMode(true);
+        var html1 = `<div class="container" id="content">\n  <img src="img1.png" id="img-1">\n  <img src="img2.png" id="img-2">\n</div>`;
+        editor1.setValue(html1);
+
+        var editor2 = ace.edit("editor2");
+        editor2.setTheme("ace/theme/monokai");
+        editor2.session.setMode("ace/mode/javascript");
+        editor2.session.setUseWrapMode(true);
+        var html2 = `$('#content').moover({\n  elements: [{\n    selector: '#img-1',\n    sensitivity: 2,\n    revert: true\n  }, {\n    selector: '#img-2',\n    sensitivity: 2\n  }]\n});`;
+        editor2.setValue(html2);
+    </script>
+
+    <script>
+        $('#header-1').moover({
+            elements: [{
+                selector: '#device-1',
+                sensitivity: 4,
+                revert: true
+            }, {
+                selector: '#device-2',
+                sensitivity: 4
+            }]
+        });
+
+        $('#container-botao').moover({
+            elements: [{
+                selector: '#botao',
+                sensitivity: 20
+            }]
+        });
+
+        $('#container-card').moover({
+            elements: [{
+                selector: '#card',
+                sensitivity: 1
+            }]
+        });
+
+        $('#howto-container').moover({
+            elements: [{
+                selector: '#howto',
+                sensitivity: 0.1
+            }]
+        });
+    </script>
+</body>
+
+</html>
